@@ -1,0 +1,12 @@
+title: "Green Nest Avocado/Coffee Nursery"
+description: "Wholesale Avocado, Coffee & Plantation Plants in Kodagu, Karnataka. Bulk nursery supply for farms, estates, and commercial plantations across India."
+url: "https://greennestnursery.com"
+baseurl: ""
+phone: "+91 94801 62989"
+whatsapp: "+91 94801 62989"
+email: "greennestnurserykodagu@gmail.com"
+location: "7th Hosakote, Kushalnagar, Kodagu, Karnataka – 571237"
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

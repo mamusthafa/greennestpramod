@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Green Nest Nursery Kodagu</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="canonical" href="https://greennestnursery.com{{ page.url }}">
+  <meta name="robots" content="index, follow">
+  <meta name="format-detection" content="telephone=yes">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }} | Green Nest Nursery Kodagu">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:url" content="https://greennestnursery.com{{ page.url }}">
+  <meta property="og:site_name" content="Green Nest Avocado/Coffee Nursery">
+  <meta property="og:image" content="https://greennestnursery.com/images/b9818c5a-060d-477f-aa82-24ba31d4bec7.JPG">
+
+  <!-- Stylesheet & Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Green Nest Avocado/Coffee Nursery",
+    "image": "https://greennestnursery.com/images/b9818c5a-060d-477f-aa82-24ba31d4bec7.JPG",
+    "telephone": "+919480162989",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7th Hosakote",
+      "addressLocality": "Kushalnagar, Kodagu",
+      "addressRegion": "Karnataka",
+      "postalCode": "571237",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 12.4552,
+      "longitude": 75.9554
+    },
+    "url": "https://greennestnursery.com",
+    "priceRange": "$$",
+    "description": "Wholesale plant nursery in Kushalnagar, Kodagu specializing in avocado, coffee, pepper, areca, silver oak, cardamom, and plantation crops with bulk delivery across India."
+  }
+  </script>
+</head>
+<body>
+
+  {% include header.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+  {% include sticky-contact.html %}
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
