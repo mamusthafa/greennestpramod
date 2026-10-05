@@ -103,14 +103,14 @@ homepage_body = """
     <div class="hero-content">
       <div class="badge-tag accent">Wholesale Plant Nursery • Kodagu, Karnataka</div>
       <h1>Wholesale Avocado, Coffee & Plantation Plants in Kodagu</h1>
-      <p class="hero-lead">Green Nest Avocado/Coffee Nursery supplies healthy nursery-grown avocado, coffee, pepper, areca, silver oak, cardamom, rambutan, litchi and other plantation plants for farms, estates and commercial plantations.</p>
+      <p class="hero-lead">Green Nest Avocado/Coffee Nursery supplies healthy nursery-grown avocado, coffee, pepper, areca, silver oak, cardamom, rambutan, litchi, orange, lemon and other plantation plants for farms, estates and commercial plantations.</p>
       <p style="color: #ffffff; font-weight: 600; margin-bottom: 2rem;">Bulk quantities available with delivery support across India.</p>
       
       <div class="hero-actions">
         <a href="plants.html" class="btn btn-primary btn-lg">View Our Plants</a>
         <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20would%20like%20to%20get%20bulk%20plant%20pricing." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-          WhatsApp for Bulk Price
+          WhatsApp for Bulk Orders
         </a>
       </div>
 
@@ -148,6 +148,7 @@ homepage_body = """
           <div class="badge-tag">Flagship Specialty</div>
           <h2>Premium Avocado Plants</h2>
           <p>Start or expand your avocado plantation with healthy nursery-grown avocado plants from Green Nest Nursery. We supply avocado plants for individual growers, farms, estates and commercial plantations, with bulk-order quantities available.</p>
+          <p><strong>Varieties Available:</strong> Mexican Hass, Ettinger, Pinkerton, Pollock, Supreme Arka, Lamb Hass, and Supreme Ravi varieties are available. Propagated with vigorous rootstocks and staked for optimal establishment.</p>
           
           <div class="feature-badge-grid">
             <div class="feature-box">
@@ -206,7 +207,7 @@ homepage_body = """
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Avocado Plants</h3>
-          <p class="plant-card-desc">Premium avocado plants for farms, estates and commercial plantations. Vigorous root system and healthy grafted scions.</p>
+          <p class="plant-card-desc">Premium avocado plants for farms, estates and commercial plantations. Mexican Hass, Ettinger, Pinkerton, Pollock, Supreme Arka, Lamb Hass, Supreme Ravi varieties available.</p>
           <div class="plant-card-actions">
             <a href="avocado-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
             <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Avocado%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
@@ -298,7 +299,7 @@ homepage_body = """
       <article class="plant-card">
         <div class="plant-card-media">
           <span class="plant-tag">Fruit Crop</span>
-          <img src="images/1c386e3c-ff0c-44f5-bba4-a6d8c00f9dc5.JPG" alt="Fruit nursery saplings" loading="lazy">
+          <img src="images/rambutan-plant.jpg" alt="Grafted rambutan fruit plant" loading="lazy">
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Rambutan Plants</h3>
@@ -314,7 +315,7 @@ homepage_body = """
       <article class="plant-card">
         <div class="plant-card-media">
           <span class="plant-tag">Fruit Crop</span>
-          <img src="images/915e8d71-62e8-41ba-90ff-9fecaadcc242.JPG" alt="Litchi and fruit plants" loading="lazy">
+          <img src="images/litchi-plant.jpg" alt="Litchi nursery plant" loading="lazy">
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Litchi Plants</h3>
@@ -322,6 +323,22 @@ homepage_body = """
           <div class="plant-card-actions">
             <a href="litchi-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
             <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Litchi%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Orange & Lemon -->
+      <article class="plant-card">
+        <div class="plant-card-media">
+          <span class="plant-tag">Citrus</span>
+          <img src="images/orange-lemon-plants.jpg" alt="Healthy orange and lemon nursery plants" loading="lazy">
+        </div>
+        <div class="plant-card-body">
+          <h3 class="plant-card-title">Orange & Lemon Plants</h3>
+          <p class="plant-card-desc">Healthy nursery-grown orange and lemon saplings in grow bags. Vigorous vegetative growth and healthy roots for orchards and farm intercropping.</p>
+          <div class="plant-card-actions">
+            <a href="other-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
+            <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Orange%20and%20Lemon%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
           </div>
         </div>
       </article>

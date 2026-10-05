@@ -235,7 +235,7 @@ Buttons:
 
 **View Our Plants**
 
-**WhatsApp for Bulk Price**
+**WhatsApp for Bulk Orders**
 
 Secondary information:
 

@@ -226,7 +226,7 @@ plants_body = f"""
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Avocado Plants</h3>
-          <p class="plant-card-desc">Premium grafted avocado plants for commercial orchards and farm diversification. Selected varieties with high field adaptability.</p>
+          <p class="plant-card-desc">Premium grafted avocado plants for commercial orchards and estates. Mexican Hass, Ettinger, Pinkerton, Pollock, Supreme Arka, Lamb Hass, Supreme Ravi varieties available.</p>
           <div class="plant-card-actions">
             <a href="avocado-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
             <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Avocado%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
@@ -318,7 +318,7 @@ plants_body = f"""
       <article class="plant-card" data-category="fruits">
         <div class="plant-card-media">
           <span class="plant-tag">Fruit Crop</span>
-          <img src="images/1c386e3c-ff0c-44f5-bba4-a6d8c00f9dc5.JPG" alt="Rambutan fruit plants" loading="lazy">
+          <img src="images/rambutan-plant.jpg" alt="Rambutan fruit plants" loading="lazy">
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Rambutan Plants</h3>
@@ -334,7 +334,7 @@ plants_body = f"""
       <article class="plant-card" data-category="fruits">
         <div class="plant-card-media">
           <span class="plant-tag">Fruit Crop</span>
-          <img src="images/915e8d71-62e8-41ba-90ff-9fecaadcc242.JPG" alt="Litchi fruit plants" loading="lazy">
+          <img src="images/litchi-plant.jpg" alt="Litchi fruit plants" loading="lazy">
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-title">Litchi Plants</h3>
@@ -342,6 +342,22 @@ plants_body = f"""
           <div class="plant-card-actions">
             <a href="litchi-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
             <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Litchi%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Orange & Lemon -->
+      <article class="plant-card" data-category="fruits">
+        <div class="plant-card-media">
+          <span class="plant-tag">Citrus</span>
+          <img src="images/orange-lemon-plants.jpg" alt="Orange and lemon plants" loading="lazy">
+        </div>
+        <div class="plant-card-body">
+          <h3 class="plant-card-title">Orange & Lemon Plants</h3>
+          <p class="plant-card-desc">Healthy orange and lemon nursery plants in polybags. High vigour, well-developed roots for orchards and farm intercropping.</p>
+          <div class="plant-card-actions">
+            <a href="other-plants.html" class="btn btn-outline btn-sm">View Details &rarr;</a>
+            <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Orange%20and%20Lemon%20Plants." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
           </div>
         </div>
       </article>
@@ -412,7 +428,7 @@ avocado_body = f"""
         <h2>Commercial Avocado Cultivation & Nursery Supply</h2>
         <p>Avocado is a commercially valuable fruit crop increasingly cultivated in suitable tropical and subtropical regions of India. Green Nest Nursery supplies healthy avocado plants for growers planning small orchards, farm diversification and larger commercial plantations.</p>
         
-        <p>Our avocado plants are propagated with vigorous rootstocks and expertly grafted to ensure early bearing, true-to-type fruit quality, and superior field survival. Every plant is hardened in nursery bags with bamboo staking to support healthy upright vegetative growth.</p>
+        <p><strong>Commercial Varieties Available:</strong> Mexican Hass, Ettinger, Pinkerton, Pollock, Supreme Arka, Lamb Hass, and Supreme Ravi varieties are available. Our avocado plants are propagated with vigorous rootstocks and expertly grafted to ensure early bearing, true-to-type fruit quality, and superior field survival. Every plant is hardened in nursery bags with bamboo staking to support healthy upright vegetative growth.</p>
 
         <!-- Specifications Table -->
         <table class="plant-spec-table">
@@ -420,6 +436,10 @@ avocado_body = f"""
             <tr>
               <th>Plant Type</th>
               <td>Avocado (Persea americana)</td>
+            </tr>
+            <tr>
+              <th>Varieties Available</th>
+              <td>Mexican Hass, Ettinger, Pinkerton, Pollock, Supreme Arka, Lamb Hass, Supreme Ravi</td>
             </tr>
             <tr>
               <th>Propagation</th>
@@ -457,7 +477,7 @@ avocado_body = f"""
 
         <div style="margin-top: 2rem; padding: 1.5rem; background: #ffffff; border: 1px solid var(--border); border-radius: var(--radius-md);">
           <h4 style="margin-bottom: 0.5rem;">Looking for Companion Plantation Crops?</h4>
-          <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 0.75rem;">Growers establishing avocado orchards often plant companion crops. Explore our <a href="coffee-plants.html"><strong>Coffee Plants</strong></a>, <a href="pepper-plants.html"><strong>Pepper Plants</strong></a>, <a href="areca-plants.html"><strong>Areca Plants</strong></a> and <a href="silver-oak-plants.html"><strong>Silver Oak Plants</strong></a>.</p>
+          <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 0.75rem;">Growers establishing avocado orchards often plant companion crops. Explore our <a href="coffee-plants.html"><strong>Coffee Plants</strong></a>, <a href="pepper-plants.html"><strong>Pepper Plants</strong></a>, <a href="areca-plants.html"><strong>Areca Plants</strong></a>, <a href="silver-oak-plants.html"><strong>Silver Oak Plants</strong></a>, and <a href="other-plants.html"><strong>Orange & Lemon Plants</strong></a>.</p>
         </div>
       </div>
     </div>
@@ -893,7 +913,7 @@ rambutan_body = f"""
   <div class="container">
     <div class="plant-detail-grid">
       <div class="plant-detail-gallery">
-        <img src="images/1c386e3c-ff0c-44f5-bba4-a6d8c00f9dc5.JPG" alt="Rambutan fruit plants in nursery" class="main-preview-img">
+        <img src="images/rambutan-plant.jpg" alt="Healthy grafted rambutan plant sapling at Green Nest Nursery" class="main-preview-img">
       </div>
 
       <div>
@@ -965,7 +985,7 @@ litchi_body = f"""
   <div class="container">
     <div class="plant-detail-grid">
       <div class="plant-detail-gallery">
-        <img src="images/915e8d71-62e8-41ba-90ff-9fecaadcc242.JPG" alt="Litchi nursery plants" class="main-preview-img">
+        <img src="images/litchi-plant.jpg" alt="Healthy litchi plant sapling at Green Nest Nursery" class="main-preview-img">
       </div>
 
       <div>
@@ -1020,7 +1040,7 @@ other_plants_body = f"""
   <div class="container">
     <div class="badge-tag accent">Comprehensive Nursery Inventory</div>
     <h1>Other Fruit & Plantation Plants</h1>
-    <p>Discover our extended selection of commercial fruit varieties, spices, and estate shade trees available at Green Nest Nursery.</p>
+    <p>Discover our extended selection of commercial fruit varieties including Orange & Lemon plants, spices, and estate shade trees available at Green Nest Nursery.</p>
     <div class="breadcrumbs">
       <a href="index.html">Home</a> &gt; <a href="plants.html">Plants</a> &gt; <span>Other Plants</span>
     </div>
@@ -1030,17 +1050,35 @@ other_plants_body = f"""
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <div class="badge-tag">Additional Categories</div>
-      <h2>Diverse Plant Varieties for Comprehensive Farm Projects</h2>
-      <p>Along with our flagship avocado, coffee, and pepper inventory, Green Nest maintains active nursery stock across diverse categories.</p>
+      <div class="badge-tag">Featured Citrus</div>
+      <h2>Orange & Lemon Plants Now Available</h2>
+      <p>Along with our flagship avocado, coffee, and pepper inventory, Green Nest supplies healthy, vigorous citrus plants ready for orchards, estates, and farm planting.</p>
+    </div>
+
+    <!-- Featured Spotlight: Orange & Lemon Plants -->
+    <div class="spotlight-grid" style="margin-bottom: 3.5rem; background: #ffffff; padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center;">
+      <div class="spotlight-image">
+        <img src="images/orange-lemon-plants.jpg" alt="Healthy orange and lemon nursery plants in Kodagu" style="width: 100%; border-radius: var(--radius-md); object-fit: cover;" loading="lazy">
+      </div>
+      <div class="spotlight-content">
+        <div class="badge-tag">Citrus Specialty</div>
+        <h2>Healthy Orange & Lemon Nursery Plants</h2>
+        <p>Green Nest Nursery supplies healthy nursery-grown <strong>Orange and Lemon plants</strong> in sturdy root bags. Our citrus saplings feature strong, active root systems, vibrant foliage, and robust disease resilience, acclimatized in the Kodagu microclimate.</p>
+        <p>Ideal for commercial citrus orchard cultivation, intercropping in coffee and areca estates, and farm diversification projects across South India and nationwide.</p>
+        <div style="margin-top: 1.5rem;">
+          <a href="https://wa.me/919480162989?text=Hello%20Green%20Nest%20Nursery,%20I%20am%20interested%20in%20Orange%20and%20Lemon%20Plants.%20Please%20share%20bulk%20availability%20and%20prices." target="_blank" rel="noopener" class="btn btn-whatsapp">
+            WhatsApp Orange & Lemon Enquiry
+          </a>
+        </div>
+      </div>
     </div>
 
     <div class="reasons-grid" style="margin-bottom: 3.5rem;">
       <div class="reason-card">
-        <div class="reason-icon">🥭</div>
+        <div class="reason-icon">🍊</div>
         <div class="reason-content">
-          <h4>Fruit Plants</h4>
-          <p>Mango (commercial grafted varieties), Jackfruit (All-season / gumless), Guava (Taiwan Pink, VNR Bihi), Sapota (Cricket Ball, Kalipatti), Citrus, Mangosteen, Dragon Fruit, and Jamun.</p>
+          <h4>Fruit & Citrus Plants</h4>
+          <p>Orange and Lemon plants are actively available, alongside Mango (commercial grafted varieties), Jackfruit (All-season / gumless), Guava (Taiwan Pink, VNR Bihi), Sapota (Cricket Ball, Kalipatti), Mangosteen, Dragon Fruit, and Jamun.</p>
         </div>
       </div>
 
@@ -1071,7 +1109,7 @@ other_plants_body = f"""
 with open('other-plants.html', 'w', encoding='utf-8') as f:
     f.write(render_page(
         title="Other Plantation & Fruit Plants | Green Nest Nursery Kodagu",
-        description="Browse additional fruit and shade trees at Green Nest Nursery including mango, jackfruit, guava, sapota, citrus and timber trees in bulk.",
+        description="Browse additional fruit and shade trees at Green Nest Nursery including orange, lemon, mango, jackfruit, guava, sapota, citrus and timber trees in bulk.",
         canonical_url="other-plants.html",
         body_content=other_plants_body,
         active_page="other-plants.html"
@@ -1398,6 +1436,9 @@ gallery_photos = [
     ("5a4bd5b2-bece-40cd-8943-75354d8b3944.JPG", "Silver Oak Saplings", "Upright silver oak saplings on nursery pathway", "trees"),
     ("83eec2b4-71c0-4bd3-bd58-5ec64bdb338f.JPG", "Cardamom Nursery Plants", "Vigorous cardamom tillers in polybags", "cardamom"),
     ("d68cd26a-d13e-4aed-be7e-04cb50cd66a0.JPG", "Cardamom Shade Net House", "Expansive shade house for cardamom slips", "cardamom nursery"),
+    ("rambutan-plant.jpg", "Grafted Rambutan Plant", "Healthy grafted rambutan sapling ready for orchard planting", "fruits"),
+    ("litchi-plant.jpg", "Litchi Nursery Plant", "Air-layered litchi sapling with vigorous vegetative growth", "fruits"),
+    ("orange-lemon-plants.jpg", "Orange & Lemon Nursery Plants", "Vigorous citrus orange and lemon plants in nursery bags", "fruits nursery"),
     ("830151bb-04be-430b-8763-280be6fcdea6.JPG", "Customer Nursery Visit", "Commercial growers visiting Green Nest Nursery", "nursery")
 ]
 
